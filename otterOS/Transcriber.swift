@@ -25,6 +25,19 @@ final class Transcriber: ObservableObject {
         (finalizedText + " " + volatileText).trimmingCharacters(in: .whitespaces)
     }
 
+    /// The raw errors from the speech stack are stack-trace soup; translate the
+    /// ones a person can actually act on.
+    private static func friendly(_ error: Error, context: String) -> String {
+        let raw = error.localizedDescription
+        if raw.localizedCaseInsensitiveContains("no space left on device") {
+            return "Your iPhone is out of storage, so the speech model can't load. Free up some space (Settings → General → iPhone Storage) and try again — the recording side still works."
+        }
+        if raw.localizedCaseInsensitiveContains("network") || raw.localizedCaseInsensitiveContains("internet") {
+            return "The speech model needs a one-time download and the network dropped. Connect to Wi-Fi and try again."
+        }
+        return "\(context): \(raw)"
+    }
+
     func start() async {
         guard !isRecording else { return }
         finalizedText = ""; volatileText = ""; elapsed = 0; errorMessage = nil
@@ -61,7 +74,7 @@ final class Transcriber: ObservableObject {
                 try await request.downloadAndInstall()
             }
         } catch {
-            errorMessage = "Speech model: \(error.localizedDescription)"
+            errorMessage = Self.friendly(error, context: "Speech model")
             return
         }
 
@@ -126,7 +139,7 @@ final class Transcriber: ObservableObject {
                     }
                 }
             } catch {
-                await MainActor.run { self?.errorMessage = "Transcription: \(error.localizedDescription)" }
+                await MainActor.run { self?.errorMessage = Self.friendly(error, context: "Transcription") }
             }
         }
 
@@ -134,7 +147,7 @@ final class Transcriber: ObservableObject {
             try engine.start()
             try await analyzer.start(inputSequence: inputSequence)
         } catch {
-            errorMessage = "Start failed: \(error.localizedDescription)"
+            errorMessage = Self.friendly(error, context: "Start failed")
             engine.inputNode.removeTap(onBus: 0)
             return
         }
