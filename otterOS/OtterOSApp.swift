@@ -2,23 +2,35 @@ import SwiftUI
 
 @main
 struct OtterOSApp: App {
+    @UIApplicationDelegateAdaptor(OttoAppDelegate.self) private var appDelegate
     @AppStorage("onboarded") private var onboarded = false
-    @StateObject private var missions = MissionStore()
+    @Environment(\.scenePhase) private var scenePhase
+    @ObservedObject private var missions = MissionStore.shared
     @StateObject private var health = HealthManager()
     @StateObject private var recordings = RecordingStore()
 
     var body: some Scene {
         WindowGroup {
-            if onboarded {
-                MainView()
+            Group {
+                if onboarded {
+                    MainView()
+                        .environmentObject(missions)
+                        .environmentObject(health)
+                        .environmentObject(recordings)
+                } else {
+                    SunriseOnboardingView {
+                        onboarded = true
+                    }
                     .environmentObject(missions)
-                    .environmentObject(health)
-                    .environmentObject(recordings)
-            } else {
-                SunriseOnboardingView {
-                    onboarded = true
                 }
-                .environmentObject(missions)
+            }
+            .onAppear { appDelegate.missionStore = missions }
+        }
+        .onChange(of: scenePhase) { _, phase in
+            // An app left open overnight still gets its sunrise.
+            if phase == .active {
+                missions.sunriseResetIfNeeded()
+                health.refresh()
             }
         }
     }
