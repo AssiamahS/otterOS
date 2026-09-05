@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B7DB79C1239ABADC92C8690 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEC827EDD6BCB85BC214CB9 /* LibraryView.swift */; };
+		4EDF4316BB2899599BDDD86C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69FD03192B93E8DC12CC29D /* Assets.xcassets */; };
+		65807ED4520BDB9A77E91884 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F18ACDA07634FAD5A439163 /* ConfettiView.swift */; };
+		6A97984F5D826908ED80DF67 /* OttoIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CE4F631248571F7D940A1B /* OttoIntents.swift */; };
+		6BD34DD807BB7C600E1B20D6 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58733A411A677586315E053C /* HealthManager.swift */; };
+		750D09EB0D45661E0BA38097 /* Transcriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0602DABEF584A0BEB7899A /* Transcriber.swift */; };
+		8386552E2455F71EF90604CE /* OttoNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9551CDDBD94F694F5C659E5 /* OttoNotifications.swift */; };
+		878589548AB58894B8D728C7 /* WeeklyReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41BA55F53629820ACDE6069 /* WeeklyReviewView.swift */; };
+		91484FAA01C8B156DD564CA4 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6CEBB71B1BBD8987363762 /* Models.swift */; };
+		B0BDC0F39FE938D708DA7858 /* OttoPersonality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971A68B762556FD9081D6643 /* OttoPersonality.swift */; };
+		D960799B426FC35E957C221A /* OtterOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE474E31514125CCABDF671 /* OtterOSApp.swift */; };
+		E8E2FF09586673A1F458192B /* SunriseOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCFFD663667AFC47AC78568 /* SunriseOnboardingView.swift */; };
+		FF0D0E35F71EDEB80B20855C /* RecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE30D4AF08525536A92B29A /* RecorderView.swift */; };
+		FF9792667D455B70DE267EDD /* MissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD41D41681B62153E1E4E81 /* MissionsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1346713300786CC70EB9DBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2D6CEBB71B1BBD8987363762 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		3AD41D41681B62153E1E4E81 /* MissionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionsView.swift; sourceTree = "<group>"; };
+		48CE4F631248571F7D940A1B /* OttoIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OttoIntents.swift; sourceTree = "<group>"; };
+		58733A411A677586315E053C /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		5E0602DABEF584A0BEB7899A /* Transcriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transcriber.swift; sourceTree = "<group>"; };
+		5FE474E31514125CCABDF671 /* OtterOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtterOSApp.swift; sourceTree = "<group>"; };
+		6EEC827EDD6BCB85BC214CB9 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		7DCFFD663667AFC47AC78568 /* SunriseOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunriseOnboardingView.swift; sourceTree = "<group>"; };
+		971A68B762556FD9081D6643 /* OttoPersonality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OttoPersonality.swift; sourceTree = "<group>"; };
+		9F18ACDA07634FAD5A439163 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
+		9FE30D4AF08525536A92B29A /* RecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderView.swift; sourceTree = "<group>"; };
+		A74091750AC45224F1721517 /* otterOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = otterOS.entitlements; sourceTree = "<group>"; };
+		B80299434D1AC11159A51559 /* otterOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = otterOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9551CDDBD94F694F5C659E5 /* OttoNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OttoNotifications.swift; sourceTree = "<group>"; };
+		D41BA55F53629820ACDE6069 /* WeeklyReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyReviewView.swift; sourceTree = "<group>"; };
+		D69FD03192B93E8DC12CC29D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0ED422177CA3E029A8CC74A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B80299434D1AC11159A51559 /* otterOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9752E8E08B26523B168891A3 /* otterOS */ = {
+			isa = PBXGroup;
+			children = (
+				D69FD03192B93E8DC12CC29D /* Assets.xcassets */,
+				9F18ACDA07634FAD5A439163 /* ConfettiView.swift */,
+				58733A411A677586315E053C /* HealthManager.swift */,
+				1346713300786CC70EB9DBCC /* Info.plist */,
+				6EEC827EDD6BCB85BC214CB9 /* LibraryView.swift */,
+				3AD41D41681B62153E1E4E81 /* MissionsView.swift */,
+				2D6CEBB71B1BBD8987363762 /* Models.swift */,
+				A74091750AC45224F1721517 /* otterOS.entitlements */,
+				5FE474E31514125CCABDF671 /* OtterOSApp.swift */,
+				48CE4F631248571F7D940A1B /* OttoIntents.swift */,
+				B9551CDDBD94F694F5C659E5 /* OttoNotifications.swift */,
+				971A68B762556FD9081D6643 /* OttoPersonality.swift */,
+				9FE30D4AF08525536A92B29A /* RecorderView.swift */,
+				7DCFFD663667AFC47AC78568 /* SunriseOnboardingView.swift */,
+				5E0602DABEF584A0BEB7899A /* Transcriber.swift */,
+				D41BA55F53629820ACDE6069 /* WeeklyReviewView.swift */,
+			);
+			path = otterOS;
+			sourceTree = "<group>";
+		};
+		B7FA7E625887D438519D5B04 = {
+			isa = PBXGroup;
+			children = (
+				9752E8E08B26523B168891A3 /* otterOS */,
+				0ED422177CA3E029A8CC74A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EDD14B61ED331D0736519E0 /* otterOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82DBF8FF8294AFF51D1BAD8E /* Build configuration list for PBXNativeTarget "otterOS" */;
+			buildPhases = (
+				17E26CD8326082830BD171E7 /* Sources */,
+				CE21891A4517F7A2176493DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = otterOS;
+			packageProductDependencies = (
+			);
+			productName = otterOS;
+			productReference = B80299434D1AC11159A51559 /* otterOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F6D65C358DDE646CA98D191 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					8EDD14B61ED331D0736519E0 = {
+						DevelopmentTeam = QGMAWHX827;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E39EE621568FB80DCC7ABD56 /* Build configuration list for PBXProject "otterOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B7FA7E625887D438519D5B04;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EDD14B61ED331D0736519E0 /* otterOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE21891A4517F7A2176493DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDF4316BB2899599BDDD86C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17E26CD8326082830BD171E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65807ED4520BDB9A77E91884 /* ConfettiView.swift in Sources */,
+				6BD34DD807BB7C600E1B20D6 /* HealthManager.swift in Sources */,
+				2B7DB79C1239ABADC92C8690 /* LibraryView.swift in Sources */,
+				FF9792667D455B70DE267EDD /* MissionsView.swift in Sources */,
+				91484FAA01C8B156DD564CA4 /* Models.swift in Sources */,
+				D960799B426FC35E957C221A /* OtterOSApp.swift in Sources */,
+				6A97984F5D826908ED80DF67 /* OttoIntents.swift in Sources */,
+				8386552E2455F71EF90604CE /* OttoNotifications.swift in Sources */,
+				B0BDC0F39FE938D708DA7858 /* OttoPersonality.swift in Sources */,
+				FF0D0E35F71EDEB80B20855C /* RecorderView.swift in Sources */,
+				E8E2FF09586673A1F458192B /* SunriseOnboardingView.swift in Sources */,
+				750D09EB0D45661E0BA38097 /* Transcriber.swift in Sources */,
+				878589548AB58894B8D728C7 /* WeeklyReviewView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		14BEC0FF0F04885B38228589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = otterOS/otterOS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = otterOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.djsly.otteros;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6F420C23434499989F40178F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QGMAWHX827;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 2.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		7BA2FDDD3A0BEF73360236F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QGMAWHX827;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 2.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		95468CDBFFDE9628E02E240B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = otterOS/otterOS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = otterOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.djsly.otteros;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82DBF8FF8294AFF51D1BAD8E /* Build configuration list for PBXNativeTarget "otterOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14BEC0FF0F04885B38228589 /* Debug */,
+				95468CDBFFDE9628E02E240B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E39EE621568FB80DCC7ABD56 /* Build configuration list for PBXProject "otterOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F420C23434499989F40178F /* Debug */,
+				7BA2FDDD3A0BEF73360236F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F6D65C358DDE646CA98D191 /* Project object */;
+}
